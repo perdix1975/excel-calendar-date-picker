@@ -2,26 +2,28 @@
 
 **Version:** 1.0.0 | **Excel:** 2013–Office 365 | **Windows:** 10 or later | **Free**
 
-![Date Picker Button in Excel Ribbon](screenshots/01_insert_tab_datepicker.png)
-
-![Calendar Dialog](screenshots/02_calendar_open.png)
+![Date Picker in Excel Ribbon](screenshots/Date_Picker.png)
 
 ---
 
 ## Overview
 
-Excel Calendar Date Picker is a professional add-in that provides a visual calendar interface for easy date selection in Excel cells. No more manual date typing — just click and select!
+Excel Calendar Date Picker is a professional add-in that provides a visual calendar for easy date selection directly in Excel cells. **No more manual date typing** — just click a date and it's done!
+
+> 🌍 **Fully respects your system's Regional Settings** — the calendar displays day names, month names and date formats exactly as configured in your Windows Regional Settings (Control Panel → Region). Whether you use DD/MM/YYYY, MM/DD/YYYY, Greek, English, German or any other locale, the add-in adapts automatically with no configuration needed.
+
+---
 
 ## Features
 
-✅ **Visual Calendar Interface** — Beautiful calendar dialog  
-✅ **Large Ribbon Button** — Professional calendar icon in the INSERT tab  
-✅ **Keyboard Shortcut** — Quick access with **Ctrl+Shift+D**  
-✅ **Smart Date Detection** — Automatically loads existing cell dates  
-✅ **International Support** — Works with any regional date format  
-✅ **Auto-Format** — Automatically formats selected cells as dates  
-✅ **No Dependencies** — Pure VBA, no .NET or extra installs required  
-✅ **Privacy-Focused** — No data collection, works 100% offline  
+✅ **Single-click date selection** — click a date and the cell updates instantly  
+✅ **Large Ribbon Button** — professional calendar icon in the INSERT tab  
+✅ **Keyboard Shortcut** — quick access with **Ctrl+Shift+D**  
+✅ **Smart Date Detection** — automatically loads the existing date from the cell  
+✅ **Regional Settings** — uses your Windows locale for day/month names and date format  
+✅ **Auto-Format** — automatically formats the cell as a date  
+✅ **No Dependencies** — pure VBA, no .NET or extra installs required  
+✅ **Privacy-Focused** — no data collection, works 100% offline  
 
 ---
 
@@ -39,7 +41,9 @@ Excel Calendar Date Picker is a professional add-in that provides a visual calen
 2. Open Excel → **File > Options > Add-ins**
 3. At the bottom, select **Excel Add-ins** → click **Go**
 4. Click **Browse** and select the downloaded file
-5. Check the box next to **Excel Date Picker** → click **OK**
+5. Check the box next to **Date_Picker** → click **OK**
+
+![Add-in Selection Window](screenshots/Date_Picker_AddIn_Window.png)
 
 ---
 
@@ -49,12 +53,24 @@ Excel Calendar Date Picker is a professional add-in that provides a visual calen
 1. Select a cell
 2. Go to **INSERT** tab
 3. Click **Date Picker**
-4. Choose a date → click **OK**
+4. Click any date — the cell updates instantly
 
 ### Via Keyboard Shortcut
 1. Select a cell
 2. Press **Ctrl+Shift+D**
-3. Choose a date → click **OK**
+3. Click any date — the cell updates instantly
+
+---
+
+## Regional Settings
+
+The add-in **automatically detects your Windows Regional Settings** and adapts accordingly:
+
+- **Day and month names** are displayed in your system language
+- **Week start day** follows your locale (Monday or Sunday)
+- **Date format** written to the cell matches your regional preference
+
+To change the locale, go to **Windows Settings → Time & Language → Region** — no changes needed inside Excel or the add-in.
 
 ---
 
@@ -72,13 +88,13 @@ Excel Calendar Date Picker is a professional add-in that provides a visual calen
 ## Troubleshooting
 
 **Add-in doesn't appear in Excel**  
-→ Go to File > Options > Add-ins > Excel Add-ins and make sure it's checked. Restart Excel.
+→ Go to File > Options > Add-ins > Excel Add-ins and make sure **Date_Picker** is checked. Restart Excel.
 
 **Ctrl+Shift+D doesn't work**  
 → Another add-in may be using the same shortcut. Use the Ribbon button instead.
 
 **Calendar doesn't pre-select existing date**  
-→ Make sure the cell value is recognized as a date by Excel (not stored as text).
+→ Make sure the cell value is recognised as a date by Excel (not stored as text).
 
 ---
 
