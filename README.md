@@ -30,18 +30,15 @@ Excel Calendar Date Picker is a professional add-in that provides a visual calen
 ## Installation
 
 ### Option 1 — Quick Install (Recommended)
-1. Download **ExcelDatePicker.xlam** from the [Releases](../../releases) page
-2. Double-click the file to open it in Excel
-3. Click **Enable Content** when prompted
-4. Restart Excel
-5. Done! Look for **Date Picker** in the **INSERT** tab
-
-### Option 2 — Manual Install
-1. Download **ExcelDatePicker.xlam**
+1. Download **ExcelDatePicker.xlam** from the [Releases](../../releases) page to any folder on your computer
 2. Open Excel → **File > Options > Add-ins**
 3. At the bottom, select **Excel Add-ins** → click **Go**
-4. Click **Browse** and select the downloaded file
-5. Check the box next to **Date_Picker** → click **OK**
+4. Click **Browse**, navigate to where you saved the file, and select it
+5. Make sure **Date_Picker** is checked → click **OK**
+6. Restart Excel
+7. Done! Look for **Date Picker** in the **INSERT** tab
+
+> 💡 **Tip:** For convenience, save the file to `C:\Users\YourName\AppData\Roaming\Microsoft\AddIns\` — Excel looks there by default when browsing for add-ins.
 
 ![Add-in Selection Window](screenshots/Date_Picker_AddIn_Window.png)
 
